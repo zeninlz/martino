@@ -16,7 +16,7 @@ use App\Http\Controllers\UserController;
 
 
 
-
+// dit is de opdracht van 30 september 
 Route::get('/', function () {
     return [
         "Uranus",
@@ -29,5 +29,7 @@ Route::get('/', function () {
         "Venus"
     ];
 });
+
+
  //Route::Post ('/register',[UserController::class, 'register']);
 //Route::post ('/logout', [UserController::class, 'logout']);
